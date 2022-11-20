@@ -1,0 +1,96 @@
+
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+body {
+    background-color: rgb(221, 214, 214);
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Quintessential', cursive;
+}
+
+.conteiner{
+    width: 90%;
+    height: auto;
+    margin:20px auto;
+    background-color: white;
+   position: relative;
+   
+    
+   
+   
+}
+
+
+.header_h1{
+    margin-left: 5px;
+    font-family:'Quintessential', cursive; 
+    color: #df8c3b;
+    font-size: 18px;
+    position: absolute;
+    top:95px;
+
+    
+}
+.header_img{   
+    margin-top: 30px;
+    max-width: 70%;
+    width: 70%;
+    height: auto;
+    left:30%;
+    position: relative;  
+
+}
+.header_box{
+    margin-bottom: 50px;
+    height: auto;
+    width: 80%;
+    background-color: #df8c3b;
+    font-family: 'Quintessential', cursive;
+    font-size: 14px;
+    text-align: center;
+    padding: 5%;
+    position: absolute;
+   
+    top:180px
+
+}
+.buttons{
+
+    display: block;
+    max-width: 84%;
+    margin: 170px auto;
+    margin-bottom: 0;
+    position: relative;
+    
+
+}
+
+.buttons_aktuality{
+    display: block;
+    width: 70%;
+    margin: 11px auto;
+    height: auto;
+
+    font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+    background-color:#14042c;
+    padding: 11px 30px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+}
+.buttons_bohosluzby {
+    display: block;
+    margin: 11px auto;
+    width: 70%;
+    height: auto;
+    font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+    background-color:#8B8B8B;
+    padding: 11px 30px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    }
+    
