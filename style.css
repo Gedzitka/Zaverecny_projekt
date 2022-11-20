@@ -24,21 +24,22 @@ font-family: 'Quintessential', cursive;
 
 .header_h1{
     margin:0 0 0 5px;
+    padding: 5px;
     font-family:'Quintessential', cursive; 
     color: #df8c3b;
     font-size: 18px;
     position: absolute;
-    top:95px;
+    top:110px;
     background-color:rgba(255, 255, 255, 0.7);
 
     
 }
 .header_img{   
     margin-top: 30px;
-    max-width: 70%;
-    width: 70%;
+    max-width: 80%;
+    width: 90%;
     height: auto;
-    left:30%;
+    left:20%;
     position: relative;  
 
 }
@@ -53,7 +54,7 @@ font-family: 'Quintessential', cursive;
     padding: 5%;
     position: absolute;
    
-    top:150px
+    top:180px
 
 }
 .buttons{
