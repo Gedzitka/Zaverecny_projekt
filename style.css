@@ -23,57 +23,59 @@ font-family: 'Quintessential', cursive;
 
 
 .header_h1{
-    margin:0 0 0 5px;
+    margin:0 25% 0 25%;
+    
     padding: 5px;
     font-family:'Quintessential', cursive; 
-    color: #df8c3b;
+    color:#df8c3b;
     font-size: 18px;
     position: absolute;
-    top:110px;
-    background-color:rgba(255, 255, 255, 0.7);
+    top:30px;
+    background-color:white ;
+    text-align: center;
+   
+    border: solid#df8c3b 2px ;
 
     
 }
 .header_img{   
-    margin-top: 30px;
-    max-width: 80%;
-    width: 90%;
+    margin-top: 60px;
+    
+    width: 100%;
     height: auto;
-    left:20%;
+    
     position: relative;  
 
 }
 .header_box{
-    margin-bottom: 50px;
+  
     height: auto;
     width: 80%;
+    margin: 0 10% 0 10%;
     background-color: #df8c3b;
     font-family: 'Quintessential', cursive;
     font-size: 14px;
     text-align: center;
-    padding: 5%;
+    padding: 3%;
     position: absolute;
    
-    top:180px
+    top: 300px;
 
 }
 .buttons{
-
-    display: block;
-    max-width: 84%;
-    margin: 170px auto;
-    margin-bottom: 0;
-    position: relative;
     
-
+   
+    display: flex;
+    justify-content: center;
+    gap:6px;
+    top:200px
 }
 
 .buttons_aktuality{
-    display: block;
-    width: 70%;
-    margin: 11px auto;
+    text-align: center;
+    width: 47%;
+    margin: 0;
     height: auto;
-
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     background-color:#14042c;
@@ -83,12 +85,17 @@ font-family: 'Quintessential', cursive;
     border-radius: 15px;
     color: white;
     box-shadow:  0px 3px 10px 0 rgb(202, 198, 198);
+    top:100px;
+    flex: 0 1 auto;
+   
 
 }
+
+
 .buttons_bohosluzby {
-    display: block;
-    margin: 11px auto;
-    width: 70%;
+   text-align: center;
+    margin: 0;
+    width: 47%;
     height: auto;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
@@ -98,5 +105,33 @@ font-family: 'Quintessential', cursive;
     border-radius: 15px;
     color: white;
     box-shadow:  0px 3px 10px 0 rgb(202, 198, 198);
+  
+    flex: 0 1 auto;
+    top:150px;
+    
+    }
+   
+    
+    .welcome_div{
+        width: 80%;
+        margin: 50px auto;
+        margin-bottom: 100px;
+        
+       background-color: white;
+       
+
+    }
+    .welcome_text{
+        text-align: center;
+        padding: 80px 50px 10px 50px;
+        font-family:'Quintessential', cursive;
+    }
+    .footer{
+        background-image: url(img/footer.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
     }
     
