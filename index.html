@@ -6,20 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quintessential&display=swap" 
     rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/scss/style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="conteiner">
- <header>
-
-    <img class="header_img" src="img/header.jpg" alt="kříž">
-    <h1 class="header_h1">Pravoslavná obec v Táboře</h1>
-    <div class="header_box">
-        <p class="header__citat">"Vytrvale poslouchali učení apoštolů, 
-            byli spolu, lámali chléb a modlili se."<br>Skutky 2:42</p>
+    
+<!-- header -->
+<header class="header">
+    <div class="header__container"> 
+       <nav class="header__navbar">
+       <a href="/"> 
+        <img class="header__logo" src="img/obec-logo_optimized.png" alt="">
+        </a>
+        
+          <ul class="header__nav-menu">
+             <li class="nav-item">
+                <a href="/" class="nav-link">ÚVOD</a>
+             </li>
+             <li class="nav-item">
+                <a href="/o-mne/" class="nav-link">O OBCI</a>
+             </li>
+             <li class="nav-item">
+              <a href="/masaze/" class="nav-link">BOHOSLUŽBY</a>
+           </li>
+             <li class="nav-item">
+                <a href="/cenik/" class="nav-link">GALERIE</a>
+             </li>
+             <li class="nav-item">
+                <a href="/fotogalerie/" class="nav-link">AKTUALITY</a>
+             </li>
+             <li class="nav-item">
+              <a href="/kontakty/" class="nav-link">KONTAKTY</a>
+           </li>
+          </ul>
+          <div class="header__hamburger">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+          </div>
+       </nav>
     </div>
-</header>
+  </header>
+
+
+
+
+  <div class="header__photo">
+    <h1 class="header_h1">Pravoslavná obec v Táboře</h1>
+  </div>
+
 
     <div class="welcome_div">
         <p class="welcome_text">VÍTEJTE na oficiálních stránkách Pravoslavné obce v Táboře, 
@@ -40,6 +75,12 @@
         Aktuality
     </p>
 </div>
+<div class="footer_box_janina">
+    <p class="footer_box_janina_text">
+        JA NI NA 
+        
+        </p>
+    </div>
 <div class="footer_box_2">
     <p class="footer_box_2_text">
         BOHOSLUŽBY <br>
@@ -47,11 +88,7 @@
         Galerie
         </p>
 </div>
-<div class="footer_box_janina">
-    <p class="footer_box_janina_text">
-        JA NI NA 
-        
-        </p>
+
 </div>
 <div class="footer_box_kontakty">
     <p class="footer_box_kontakty_text">
@@ -59,11 +96,10 @@
         
         </p>
     
-</div>
+
 </div>
  
 </footer>
-</div>
 
  <script src="script.js"></script>   
 </body>
