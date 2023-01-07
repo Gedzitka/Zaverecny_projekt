@@ -156,6 +156,7 @@ body {
 }
 
 .slider_conteiner {
+  margin-bottom: 20px;
   width: 50%;
   height: 300px;
   display: flex;
