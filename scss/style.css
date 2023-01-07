@@ -156,9 +156,10 @@ body {
 }
 
 .slider_conteiner {
+  margin-top: 2Opx;
   margin-bottom: 20px;
   width: 50%;
-  height: 30%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
