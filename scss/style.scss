@@ -387,18 +387,15 @@ align-items: center;
    
     @media(min-width:800px){
       .box__conteiner {
-        width: 100%;
-          display: flex;
-         
-          margin-top: 0;
-          gap:5px;
-       
-          flex-direction: row;
-    
+        display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            row-gap: 30px;
+      
           
       }
-      .box{
-        flex:  1 1 50%
+      .box__photo{
+        flex-basis: 50%
       }
       .boxes{
         height: 70vh;

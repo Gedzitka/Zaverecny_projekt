@@ -351,14 +351,13 @@ body {
 
 @media (min-width: 800px) {
   .box__conteiner {
-    width: 100%;
-    display: flex;
-    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 5px;
-    flex-direction: row;
+    row-gap: 30px;
   }
-  .box {
-    flex: 1 1 50%;
+  .box__photo {
+    flex-basis: 50%;
   }
   .boxes {
     height: 70vh;
